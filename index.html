@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Details</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="java.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+</head>
+
+<body>
+
+<!-- ================================================================================ -->
+<!-- ===========================HOME===================================================== -->
+<!-- ================================================================================ -->
+<div data-role="page" id="home">
+    <!-- header -->
+    <div data-role="header" data-theme='b'>
+        <div data-role="navbar" data-theme='b'>
+            <ul>
+               
+                <li><a href="#add">Add Detail</a></li>
+                <li><a href="#list">List Details</a></li>
+                <li><a herf="#detail"> Detail</li>
+
+            </ul>
+        </div><!-- /navbar -->
+        <h2>Details</h2>
+        
+        <p>Some Tracker Site</p>
+    </div>
+
+
+
+    <!-- content -->
+    <div data-role="content" data-theme='e'>
+       
+    </div>
+
+
+
+
+    <!-- Details footer -->
+    <div data-role="footer" data-theme='b'>
+        <h3>Copyrigtht 2022 by Nick</h3>
+    </div>
+</div>
+
+<!-- ================================================================================ -->
+<!-- ==============================ADD============================================= -->
+<!-- ================================================================================ -->
+
+<div data-role="page" id="add">
+    <!-- header -->
+    <div data-role="header" data-theme='b'>
+        <div data-role="navbar" data-theme='b'>
+            <ul>
+                <li><a href="#home">Home Page</a></li>
+              
+                <li><a href="#list">List Details</a></li>
+                <li><a herf="#detail"> Detail</li>
+            </ul>
+        </div><!-- /navbar -->
+        <h2>Add a Detail</h2>
+    </div>
+
+
+
+    <!-- content -->
+    <div data-role="content" data-theme='e'>
+        Enter Detail name <br />
+        A Detail Title<br />
+        A Detail Year <br/>
+        <input type="text" value="" id="Detail" />
+        
+        <label for="select-type">Select a Type</label>
+        <select name="select-type" id="select-type">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+        </select>
+        
+        <input type="button" value="Click To Add Detail" id="buttonAdd" />
+    </div>
+
+
+
+    <!-- Details footer -->
+    <div data-role="footer" data-theme='b'>
+        <h3>Copyrigtht 2022 by Nick</h3>
+    </div>
+</div>
+
+<!-- ================================================================================ -->
+<!-- ==============================LIST============================================= -->
+<!-- ================================================================================ -->
+
+<div data-role="page" id="list">
+  
+    <!-- header -->
+    <div data-role="header" data-theme='b'>
+        <div data-role="navbar" data-theme='b'>
+            <ul>
+                <li><a href="#home">Home Page</a></li>
+                <li><a href="#add">Add Detail</a></li>
+                <li><a herf="#detail"> Detail</li>
+               
+            </ul>
+        </div><!-- /navbar -->
+        <h2>List Details</h2>
+    </div>
+
+
+
+    <!-- content -->
+    <div data-role="content" data-theme='e'>
+
+    
+        <ul id="myList">
+            <li>The Detail Title</li>
+            <li>Detail years</li>
+            <li>Genre</li>
+        </ul>
+    </div>
+
+
+    
+    <!-- Details footer -->
+    <div data-role="footer" data-theme='b'>
+        <h3>Copyrigtht 2022 by Nick</h3>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>
